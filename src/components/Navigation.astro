@@ -1,0 +1,72 @@
+---
+
+---
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    float: right;
+  }
+
+  li,
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .logo {
+    cursor: pointer;
+    position: absolute;
+    left: 5%;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 1.1rem;
+  }
+
+  .nav_links {
+    list-style: none;
+  }
+
+  .nav_links li {
+    display: inline-block;
+    margin-left: -15px;
+  }
+
+  .nav_links li a {
+    transition:
+      text-decoration-color 250ms ease-in-out,
+      color 250ms ease-in-out;
+    color: rgb(80, 80, 80);
+    text-decoration: 1.3px underline gray;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+  }
+
+  .nav_links li a:hover {
+    text-decoration-color: darkslategray;
+    color: black;
+    cursor: pointer;
+  }
+
+  .nav_links li + li::before {
+    content: "/ ";
+    padding-left: 1em;
+  }
+</style>
+<header>
+  <nav>
+    <a href="/" class="logo">Vihaan Vinoth</a>
+    <ul class="nav_links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/tags/">Tags</a></li>
+    </ul>
+  </nav>
+</header>

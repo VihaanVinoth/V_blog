@@ -5,11 +5,6 @@ A blog I made to showcase my skills in CS
 
 &nbsp;
 
-> [!NOTE]
-> Unlike my other projects, I haven't hosted Astro, and I am likely to link back this project again, and optimise it for usage.
-
-&nbsp;
-
 ## Why I made this
 I wanted to tell the world about my skills, so I brainstormed and created this blog 'from the ground up'.
 
@@ -24,11 +19,9 @@ Although I managed to create this blog, I encountered problems with setting the 
 
 # How to access website?
 
-As of now, the only way to access the site is by `git clone`:
+You can access the site by going [here](https://vertriblog.app), or by `git clone`:
 
 ```
 git clone https://github.com/VihaanVinoth/V_blog.git
 cd V_blog
 ```
-
-I am most likely going to come back and hook up the site, including my other projects.
